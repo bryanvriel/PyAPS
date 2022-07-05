@@ -257,7 +257,7 @@ class PyAPS:
                                                self.Delfn_1m[::-1,:,:],
                                                method='linear', 
                                                bounds_error=False, 
-                                               fill_value = 0.0)
+                                               fill_value = np.nan)
 
         # Show progress bar
         if self.verb:
